@@ -1,0 +1,31 @@
+.footer-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+.footer-wrapper .footer-logo {
+    opacity: 0.5;
+    flex: 1 0 50%;
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #cccccc;
+}
+
+.footer-wrapper .footer-text {
+    text-align: center;
+    flex: 1 0 50%;
+    order: -1;
+}
+
+.footer-text p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 22px;
+}

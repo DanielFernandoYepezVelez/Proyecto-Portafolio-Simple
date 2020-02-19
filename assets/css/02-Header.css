@@ -1,0 +1,73 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    flex-wrap: wrap;
+}
+
+.logo-wrapper {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 40%;
+    /* flex: 1 0 30%; Las tres de arriba en una sola*/
+    text-align: center;
+}
+
+.logo-wrapper h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #cccccc;
+}
+
+.menu-wrapper {
+    flex: 1 0 60%;
+}
+
+.menu {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+}
+
+.menu li {
+    flex-basis: 20%;
+    height: 10vh;
+    line-height: 10vh;
+    /*margin: 0 1%;
+    padding: 0 3%;
+    */
+    margin: 0 1%;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    -webkit-border-radius: 1%;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.menu li:hover {
+    background-color: #cccccc;
+}
+
+.menu a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    color: #444444;
+}
+
+.menu li a:hover {
+    color: white;
+}
